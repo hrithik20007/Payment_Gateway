@@ -6,38 +6,40 @@
 	<link rel="stylesheet" type="text/css" href="style.css"></title>
 </head>
 <body>
-	<div class="nav">
-		<ul>
-			<li><a href="./index.html">Home</a></li>
-			<li><a href="./about.html" target="_blank">About Us</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</div>
-	<h2>Contact Us</h2>
-	<div class="contact">
-		<p>Our email is xxxxxxxxxx</p>
-		<p>Our phone number: xxxxxxxxx</p>
-		<p>You can provide your details and feedback below:</p>
-	</div>
-	<div class="form">
-		<form action="process.php" method="POST">
-			<div>
-				<label>Name:</label>
-				<input type="text" name="Name" placeholder="Enter Name">
-			</div>
-			<br>
-			<div>
-				<label>Email:</label>
-				<input type="email" name="email" placeholder="Enter Email">
-			</div>
-			<br>
-			<div>
-				<label>Message:</label>
-				<textarea name="message"></textarea>
-			</div>
-			<br>
-			<input type="submit" name="submit" value="submit">
-		</form>
+	<div id="contactbody">
+		<div class="nav">
+			<ul>
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./about.html" target="_blank">About Us</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+		<h2>Contact Us</h2>
+		<div class="contact">
+			<p>Our email is: xxxxxxxxxx</p>
+			<p>Our phone number: xxxxxxxxx</p>
+			<p>You can provide your details and feedback below:</p>
+		</div>
+		<div class="form">
+			<form action="process.php" method="POST">
+				<div>
+					<label>Name:</label>
+					<input type="text" name="Name" placeholder="Enter Name">
+				</div>
+				<br>
+				<div>
+					<label>Email:</label>
+					<input type="email" name="email" placeholder="Enter Email">
+				</div>
+				<br>
+				<div>
+					<label>Message:</label>
+					<textarea name="message"></textarea>
+				</div>
+				<br>
+				<input type="submit" name="submit" value="Submit">
+			</form>
+		</div>
 	</div>
 	<footer class="footer">
 		<p>Copyright &copy; 2021 Payment Gateway Project</p>

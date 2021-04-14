@@ -1,0 +1,130 @@
+/*All Pages*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins' ,sans-serif;
+}
+
+.nav ul{
+	list-style: none;
+}
+
+.nav li{
+	display: inline;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+/*.nav li:hover{
+	background-color: #fff
+	color: #333;
+}*/
+
+
+.footer{
+	text-align: center;
+}
+
+
+
+
+/*Index Page*/
+#indexbody{
+	background-image: url("./images/image1.jpg");
+	background-position: center center;
+	background-size: cover;
+	box-shadow: inset 0 600px 0 0 rgba(0,0,0,0.7);
+	min-height: 600px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+/*About Us Page*/
+.flex{
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	justify-content: space-around;
+}
+
+.aboutnav ul{
+	list-style: none;
+}
+
+.aboutnav li{
+	display: inline;
+}
+
+.aboutnav a{
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+/*.nav li:hover{
+	background-color: #fff
+	color: #333;
+}*/
+
+#aboutimg img{
+	height: 500px;
+	width: 500px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+#aboutxt p,h2{
+	text-align: center;
+}
+
+#aboutbody{
+	color: #333;
+	text-align: center;
+}
+
+
+
+
+/*Contact Us Page*/
+#contactbody{
+	background-image: url("./images/image1.jpg");
+	background-position: center center;
+	background-size: cover;
+	box-shadow: inset 0 600px 0 0 rgba(0,0,0,0.7);
+	min-height: 600px;
+	color: #fff;
+	text-align: center;
+}
+
+.form label{
+	display: block;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea{
+	padding: 8px;
+	width: 40%
+}
+
+
+
+
+/*Donate Page*/
+#donatebody{
+	background-image: url("./images/image1.jpg");
+	background-position: center center;
+	background-size: cover;
+	box-shadow: inset 0 600px 0 0 rgba(0,0,0,0.7);
+	min-height: 600px;
+	color: #fff;
+	text-align: center;
+}
