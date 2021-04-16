@@ -16,9 +16,9 @@
 		</div>
 		<h2>Contact Us</h2>
 		<div class="contact">
-			<p>Our email is: xxxxxxxxxx</p>
-			<p>Our phone number: xxxxxxxxx</p>
-			<p>You can provide your details and feedback below:</p>
+			<p class="Para">Our email is: xxxxxxxxxxxxxxx</p>
+			<p class="Para">Our phone number: xxxxxxxxx</p>
+			<p id="details">You can provide your details and feedback below:</p>
 		</div>
 		<div class="form">
 			<form action="process.php" method="POST">
@@ -34,10 +34,12 @@
 				<br>
 				<div>
 					<label>Message:</label>
-					<textarea name="message"></textarea>
+					<textarea name="message" placeholder="Your Text"></textarea>
 				</div>
 				<br>
-				<input type="submit" name="submit" value="Submit">
+				<div id="subbut">
+					<input type="submit" name="submit" value="Submit">
+				</div>
 			</form>
 		</div>
 	</div>

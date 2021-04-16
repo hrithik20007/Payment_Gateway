@@ -88,7 +88,6 @@
 	font-size: 18px;
 	padding: 12px 35px;
 	border-radius: 17px;
-	border: 2px solid black;
 	box-shadow: 5px 4px 5px black;
 	font-family: 'Poppins',sans-serif; 
 	font-weight: 500;
@@ -103,6 +102,7 @@
 	transform: scale(1.1);
 	background: black;
 	color: white;
+	border: 2px solid black;
 	box-shadow: none;
 }
 
@@ -189,7 +189,7 @@
 	background-image: url("./images/image1.jpg");
 	background-position: center center;
 	background-size: cover;
-	box-shadow: inset 0 600px 0 0 rgba(0,0,0,0.7);
+	box-shadow: inset 0 810px 0 0 rgba(0,0,0,0.7);
 	min-height: 600px;
 	color: #fff;
 	text-align: center;
@@ -202,6 +202,42 @@
 .form input[type="text"], .form input[type="email"], .form textarea{
 	padding: 8px;
 	width: 40%
+}
+
+#contactbody h2{
+	font-size: 40px;
+	padding: 50px;
+}
+
+.contact .Para{
+	font-size: 20px;
+	padding: 5px;
+}
+
+.contact #details{
+	font-size: 20px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.form{
+	padding-top: 25px;
+	padding-bottom: 70px;
+}
+
+.form #subbut{
+	padding-top: 40px;
+}
+
+.form input[type="submit"]{
+	padding: 12px 28px; 
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+}
+
+.form input[type="submit"]:hover{
+	transform: scale(1.1);
 }
 
 
@@ -235,7 +271,7 @@
 
 #dnh>h2{
 	color: white;
-	font-size: 30px;
+	font-size: 40px;
 	margin-top: 10px;
 	margin-bottom: 70px;
 }
