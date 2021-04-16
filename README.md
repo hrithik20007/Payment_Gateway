@@ -1,4 +1,4 @@
-# Paymnt Gateway Integration
+# Payment Gateway Integration
 
 A project aimed at creating a website with a donation gateway. I've used Razorpay as my payment gateway. 
 
