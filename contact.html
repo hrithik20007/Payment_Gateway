@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Contact Us</title>
-	<link rel="stylesheet" type="text/css" href="style.css"></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 	<div id="contactbody">
@@ -21,24 +22,24 @@
 			<p id="details">You can provide your details and feedback below:</p>
 		</div>
 		<div class="form">
-			<form action="process.php" method="POST">
+			<form id="contactform" action="process.php" method="POST">
 				<div>
 					<label>Name:</label>
-					<input type="text" name="Name" placeholder="Enter Name">
+					<input type="text" id="namein" name="Name" placeholder="Enter Name">
 				</div>
 				<br>
 				<div>
 					<label>Email:</label>
-					<input type="email" name="email" placeholder="Enter Email">
+					<input type="email" id="mailin" name="email" placeholder="Enter Email">
 				</div>
 				<br>
 				<div>
 					<label>Message:</label>
-					<textarea name="message" placeholder="Your Text"></textarea>
+					<textarea name="message" id="msgin" placeholder="Your Text"></textarea>
 				</div>
 				<br>
 				<div id="subbut">
-					<input type="submit" name="submit" value="Submit">
+					<input id="contactbtn" type="submit" name="submit" value="Submit">
 				</div>
 			</form>
 		</div>
