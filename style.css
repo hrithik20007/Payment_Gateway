@@ -66,6 +66,7 @@
 	min-height: 600px;
 	color: #fff;
 	text-align: center;
+	height: 100%;
 }
 
 #indexbody h1{
@@ -117,6 +118,7 @@
 	width: 95%;
 	justify-content: space-around;
 	padding: 40px;
+	flex-wrap: wrap;
 }
 
 .aboutnav{
@@ -178,6 +180,7 @@
 #aboutbody{
 	color: #333;
 	text-align: center;
+	height: 100%;
 }
 
 
@@ -193,6 +196,7 @@
 	min-height: 600px;
 	color: #fff;
 	text-align: center;
+	height: 100%;
 }
 
 .form label{
@@ -257,6 +261,7 @@
 	min-height: 600px;
 	color: black;
 	text-align: center;
+	height: 100%;
 }
 
 #whitebg{
@@ -274,4 +279,16 @@
 	font-size: 40px;
 	margin-top: 10px;
 	margin-bottom: 70px;
+}
+
+@media(max-width: 700px){
+
+	#whitebg{
+		width: 100%;
+	}
+
+	#dnh>h2{
+		font-size: 38px;
+		text-align: center;
+	}
 }
