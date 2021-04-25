@@ -7,7 +7,6 @@
 	font-weight: lighter;
 }
 
-
 .nav{
 	min-height: 10vh;
 }
@@ -220,6 +219,16 @@
 	.flex{
 		flex-wrap: wrap;
 	}
+
+	#theme{
+		margin-left: 41%;
+	}
+}
+
+@media(min-width: 915px){
+	#theme{
+		margin-left: 47%;
+	}
 }
 
 #aboutimg img{
@@ -243,6 +252,41 @@
 	color: #333;
 	text-align: center;
 	height: 100%;
+}
+
+#theme{
+	height: 60px;
+	width: 100px;
+}
+
+#checkbox{
+	display: none;
+}
+
+#jsbox{
+	height:26px;
+	width:50px;
+	margin-top: 20%;
+	background-color: #333;
+	margin-left: 25%;
+	border-radius: 50px;
+	position: relative;
+}
+
+.ball{
+	height:22px;
+	width:22px;
+	border-radius: 50%;
+	background-color:#fff;
+	color: rgba(0,0,0,0);
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	transition: transform 0.2s linear;
+}
+
+#checkbox:checked + #jsbox .ball{
+	transform: translateX(24px);
 }
 
 
