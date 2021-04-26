@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Contact Us</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="main.js"></script>
+	<!--<script type="text/javascript" src="main.js"></script>-->
 </head>
 <body>
 	<div id="contactbody">
@@ -54,7 +54,7 @@
 				</div>
 				<br>
 				<div id="subbut">
-					<input id="contactbtn" type="submit" name="submit" value="Submit" onclick="onSubmit()">
+					<input id="contactbtn" type="submit" name="submit" value="Submit">
 				</div>
 			</form>
 		</div>
@@ -62,5 +62,20 @@
 	<footer class="footer">
 		<p>Copyright &copy; 2021 Payment Gateway Project</p>
 	</footer>
+	<script type="text/javascript">
+		const name=document.getElementById("namein");
+		const mail=document.getElementById("mailin");
+		const text=document.getElementById("msgin");
+		function onSubmit() {
+			if (name.value==""||mail.value==""||text.value==""){
+				alert("Inputs Missing!");
+			}else{
+				alert("Form has been submitted successfully!");
+			}
+			name.value="";
+			mail.value="";
+			text.value="";
+		};
+	</script>
 </body>
 </html>
