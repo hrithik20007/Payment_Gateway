@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>Contact Us</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<!--<script type="text/javascript" src="main.js"></script>-->
 </head>
 <body>
 	<div id="contactbody">
@@ -37,7 +36,7 @@
 			<p id="details">You can provide your details and feedback below:</p>
 		</div>
 		<div class="form">
-			<form id="contactform" action="process.php" method="POST">
+			<form id="contactform" method="POST">
 				<div>
 					<label>Name:</label>
 					<input type="text" id="namein" name="Name" placeholder="Enter Name">
@@ -54,7 +53,7 @@
 				</div>
 				<br>
 				<div id="subbut">
-					<input id="contactbtn" type="submit" name="submit" value="Submit">
+					<input id="contactbtn" type="submit" name="submit" value="Submit" onclick="onSubmit()">
 				</div>
 			</form>
 		</div>
@@ -62,20 +61,6 @@
 	<footer class="footer">
 		<p>Copyright &copy; 2021 Payment Gateway Project</p>
 	</footer>
-	<script type="text/javascript">
-		const name=document.getElementById("namein");
-		const mail=document.getElementById("mailin");
-		const text=document.getElementById("msgin");
-		function onSubmit() {
-			if (name.value==""||mail.value==""||text.value==""){
-				alert("Inputs Missing!");
-			}else{
-				alert("Form has been submitted successfully!");
-			}
-			name.value="";
-			mail.value="";
-			text.value="";
-		};
-	</script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
